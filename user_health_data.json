@@ -1,15 +1,154 @@
 {
     "medications": [
         {
-            "id": "48526ca0",
-            "name": "Jhon",
-            "dosage": "2 tablets",
-            "schedule": "every 4 hours",
-            "notes": "take it",
-            "date_added": "2025-04-05"
+            "id": "m1",
+            "name": "Paracetamol",
+            "dosage": "500mg",
+            "schedule": "Twice daily",
+            "notes": "Fever",
+            "date_added": "2026-04-10"
+        },
+        {
+            "id": "m2",
+            "name": "Aspirin",
+            "dosage": "75mg",
+            "schedule": "Daily",
+            "notes": "Heart",
+            "date_added": "2026-04-11"
+        },
+        {
+            "id": "m3",
+            "name": "Metformin",
+            "dosage": "500mg",
+            "schedule": "Twice",
+            "notes": "Diabetes",
+            "date_added": "2026-04-12"
+        },
+        {
+            "id": "m4",
+            "name": "Vitamin D",
+            "dosage": "1000 IU",
+            "schedule": "Weekly",
+            "notes": "Supplement",
+            "date_added": "2026-04-13"
+        },
+        {
+            "id": "m5",
+            "name": "Ibuprofen",
+            "dosage": "400mg",
+            "schedule": "Pain",
+            "notes": "Headache",
+            "date_added": "2026-04-14"
+        },
+        {
+            "id": "m6",
+            "name": "Amoxicillin",
+            "dosage": "250mg",
+            "schedule": "3 times",
+            "notes": "Infection",
+            "date_added": "2026-04-15"
+        },
+        {
+            "id": "m7",
+            "name": "Cetirizine",
+            "dosage": "10mg",
+            "schedule": "Night",
+            "notes": "Allergy",
+            "date_added": "2026-04-16"
+        },
+        {
+            "id": "m8",
+            "name": "Losartan",
+            "dosage": "50mg",
+            "schedule": "Morning",
+            "notes": "BP",
+            "date_added": "2026-04-17"
+        },
+        {
+            "id": "m9",
+            "name": "Insulin",
+            "dosage": "10 units",
+            "schedule": "Before meal",
+            "notes": "Diabetes",
+            "date_added": "2026-04-18"
+        },
+        {
+            "id": "m10",
+            "name": "Calcium",
+            "dosage": "500mg",
+            "schedule": "Daily",
+            "notes": "Bone",
+            "date_added": "2026-04-19"
         }
     ],
-    "appointments": [],
-    "vital_signs": [],
-    "general_health_notes": []
+    "appointments": [
+        {
+            "id": "a1",
+            "doctor": "Dr. Rao",
+            "date": "2026-04-20",
+            "time": "10:00 AM",
+            "location": "City Hospital",
+            "notes": "Checkup"
+        },
+        {
+            "id": "a2",
+            "doctor": "Dr. Sharma",
+            "date": "2026-04-21",
+            "time": "11:00 AM",
+            "location": "Apollo",
+            "notes": "Diabetes"
+        },
+        {
+            "id": "a3",
+            "doctor": "Dr. Reddy",
+            "date": "2026-04-22",
+            "time": "12:00 PM",
+            "location": "Care",
+            "notes": "Heart"
+        }
+    ],
+    "vital_signs": [
+        {
+            "id": "v1",
+            "type": "BP",
+            "value": "120/80",
+            "timestamp": "2026-04-15 09:00",
+            "notes": "Normal"
+        },
+        {
+            "id": "v2",
+            "type": "Heart Rate",
+            "value": "72 bpm",
+            "timestamp": "2026-04-15 10:00",
+            "notes": "Normal"
+        },
+        {
+            "id": "v3",
+            "type": "Temp",
+            "value": "98.6",
+            "timestamp": "2026-04-15 11:00",
+            "notes": "Normal"
+        },
+        {
+            "id": "v4",
+            "type": "Weight",
+            "value": "150 lbs",
+            "timestamp": "2026-04-15 12:00",
+            "notes": "Stable"
+        }
+    ],
+    "general_health_notes": [
+        {
+            "id": "n1",
+            "note": "Walking daily for 30 minutes"
+        },
+        {
+            "id": "n2",
+            "note": "Following healthy diet with vegetables"
+        },
+        {
+            "id": "n3",
+            "note": "No issues with current medications"
+        }
+    ]
 }
